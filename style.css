@@ -1,0 +1,204 @@
+* {
+    font-family: "Ubuntu", arial;
+    font-size: 14px;
+    color: black;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: "Ubuntu";
+    font-size: 5rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+.section h1 {
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+h2 {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.title h1 {
+    color: #dddddd;
+    max-width: 50%;
+}
+
+.title h2 {
+    color: #dddddd;
+    max-width: 40%;
+}
+
+.action-shot {
+
+    background-image: url("network.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+}
+
+
+.action-shot2 {
+
+    background-image: url("network2.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+}
+
+.header-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.fade {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.title {
+    z-index: 2;
+    margin: 2em;
+    width: 100%;
+}
+
+.nav {
+    position: fixed;
+    width:100%;
+    top: 0px;
+    right: 0px;
+    height: 60px;
+    z-index: 999;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgba(25, 25, 50, 0.25);
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+.nav-solid {
+    width:auto;
+    background-color: rgba(25, 25, 50, 0.8);
+    right:0px;
+}
+
+.nav-elem {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Ubuntu";
+    color: #efefef;
+    height: 100%;
+    float: right;
+    letter-spacing: 1.5px;
+}
+
+.nav-elem:hover {
+    background-color: rgba(35, 35, 50, 0.5);
+}
+
+.nav-elem-active {
+    background-color: rgba(55, 55, 80, 0.25);
+}
+
+.sep {
+    height: 100%;
+}
+
+.body {
+    background-image: url("network2.png");
+    padding-bottom:5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%
+}
+.body2 {
+    background-image: url("white.png");
+    padding-bottom:5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+    margin-left:30%;
+    margin-right:30%;
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+.section {
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 40px;
+    background-image:url("white.png");
+}
+            <h1 id="s">Sign in</h1>
+
+.body img {
+    display: inline;
+    margin-bottom: 0.75em;
+}
+
+.body img.left {
+    float: left;
+    margin-right: 0.75em;
+}
+
+.body img.right {
+    float: right;
+    margin-left: 0.75em;
+}
+
+.body img.pad-top {
+    margin-top: 1.5em;
+}
+
+.body h1 {
+  margin-bottom:10px;
+}
+
+dl {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+dt {
+    font-weight: 700;
+}
+
+dd {
+    margin-left: 0;
+}
+
+dd,
+dt {
+    line-height: 1.42857143;
+}
