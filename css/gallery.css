@@ -1,0 +1,108 @@
+.cell-wrapper {
+    margin: 4px;
+    display: inline-block;
+    width: 200px;
+}
+
+.cell-container {
+    padding: 4px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: #9FA8DA;
+    background-image: url("/img/ajax-loader.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cell-content {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: none;
+}
+
+.cell-content .thumbnail {
+    max-height: 200px;
+    position: relative;
+    -webkit-transition: opacity .125s ease-in-out;
+    -moz-transition: opacity .125s ease-in-out;
+    -o-transition: opacity .125s ease-in-out;
+    transition: opacity .125s ease-in-out;
+}
+
+.thumbnail:hover {
+    opacity: 0.5;
+}
+
+.cell-content .frame {
+    display: none;
+}
+
+#interstitial .frame {
+    pointer-events: visible;
+}
+
+#fade {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    pointer-events: none;
+    opacity: 0.0;
+    -webkit-transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -o-transition: opacity .25s ease-in-out;
+    transition: opacity .25s ease-in-out;
+}
+
+#fade .close-button {
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#fade .close-button img {
+    width: 20;
+    height: 20;
+}
+
+#interstitial {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    pointer-events: none;
+    opacity: 0.0;
+    -webkit-transition: opacity .125s ease-in-out;
+    -moz-transition: opacity .125s ease-in-out;
+    -o-transition: opacity .125s ease-in-out;
+    transition: opacity .125s ease-in-out;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell-grid {
+    text-align: center;
+}
+
+.frame {
+    text-align:center;
+}
+
+.frame img.viewer {
+  display:inline-block;
+  max-width:70%;
+  max-height:70%;
+  margin:auto;
+}

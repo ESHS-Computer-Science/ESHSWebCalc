@@ -1,0 +1,34 @@
+
+<head>
+
+    <link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,100italic,400italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link href='css/gallery.css' rel='stylesheet' type='text/css' media='screen'>
+    <link href='style.css' rel='stylesheet' type='text/css' media='screen'>
+
+</head>
+<body>
+    <div class="header-section action-shot2" title="Securing servers at the CyberPatriot VI finals in 2014.">
+        <div class="fade"></div>
+        <div class="title">
+          <div class="body2">
+
+           <div class="section">
+
+
+<form class="center" action="action_page.php">
+            <h1 id="s" class="center">Sign up</h1>
+<p>  Email:</p><br>
+  <input class="center" type="text" name="firstname">
+  <br>
+<p>  Password:</p><br>
+  <input class="center" type="text" name="lastname">
+
+</form>
+
+        </div>
+</div>
+        </div>
+    </div>
+    </body>
