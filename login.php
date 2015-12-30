@@ -1,19 +1,19 @@
 <?php include('includes/header.php'); ?>
 <body>
-    <div class="header-section action-shot2" title="Securing servers at the CyberPatriot VI finals in 2014.">
-        <div class="fade"></div>
-        <div class="title">
-            <div class="body2">
-                <div class="section">
-                    <form class="center" action="action_page.php">
-                        <h1 id="s" class="center">Sign in</h1>
-                        <p>  Email:</p>
-                        <input class="center" type="text" name="firstname">
-                        <br /><br />
-                        <p>  Password:</p>
-                        <input class="center" type="text" name="lastname">
-                    </form>
-                </div>
+    <div class="header-section2 action-shot2" title="Come on login, you know you want to.">
+        <div class="body2">
+            <div class="section">
+                <form action="action_page.php" method="post" autocomplete="off" >
+                    <h1>Login</h1>
+                    <br />
+                    
+                    <input class="center" type="text" name="firstname" placeholder="Email or Username">
+                    <br /><br />
+                    
+                    <input class="center" type="text" name="lastname" placeholder="Password" >
+                    <br /><br />
+                    <input class="btn btn-primary" type="submit" value="Login">
+                </form>
             </div>
         </div>
     </div>
