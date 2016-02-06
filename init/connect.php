@@ -1,5 +1,5 @@
 <?php
-  $host = " 127.7.37.130";
+  $host = "127.7.37.130";
   $username = "mschumann";
   $password = "Marcmann15";
   
