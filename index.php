@@ -1,5 +1,6 @@
 
 <?php include('includes/header.php'); ?>
+<?php include('init/connect.php'); ?>
 	
 	<body>
 		<div class="nav">
