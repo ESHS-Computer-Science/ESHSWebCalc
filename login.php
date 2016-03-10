@@ -1,4 +1,5 @@
 <?php include('includes/header.php'); ?>
+<?php include('init/connect.php'); ?>
 <body>
     <div class="header-section2 action-shot2" title="Come on login, you know you want to.">
         <div class="body2">
